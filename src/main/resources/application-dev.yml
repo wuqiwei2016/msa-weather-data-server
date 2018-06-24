@@ -1,0 +1,12 @@
+spring:
+  datasource:
+    data:
+      driver-class-name: com.mysql.jdbc.Driver
+      username: root
+      password: root
+      jdbc-url: jdbc:mysql://127.0.0.1:3306/miaosha?useUnicode=true&characterEncoding=utf-8&allowMultiQueries=true&useSSL=false
+  redis:
+      host: 127.0.0.1
+      port: 6379
+      database: 2
+      timeout: 1000
